@@ -37,4 +37,40 @@ print(my_list)
 
 # delete complete list
 del(my_list)
-print(my_list)
+#print(my_list)
+
+"""
+We can use remove() method to remove the given item or pop() method to remove an item at the given index
+The pop() method removed and returns the last item if the index is not provided, This helps us implements
+lists as stacks(first in ,last out data structure)
+
+Syntax of list pop()
+list.pop(index)
+
+The pop() method takes a single argument (index).
+The argument passed to the method is optional. If not passed, the default index -1 is passed as an argument (index of the last item).
+If the index passed to the method is not in range, it throws IndexError: pop index out of range exception.
+"""
+
+prime_numbers = [1,3,5,7,11,13]
+
+removed_numbers = prime_numbers.pop(3)
+
+print("Removed items :-",removed_numbers)
+print("prime numvbers:-",prime_numbers)
+
+given_list =['Python','Scala','Java','C++']
+
+#removed_list = given_list.pop(3);
+
+print("Complete list :-",given_list);
+#print("After removed element:-",removed_list);
+
+# pop() without an index and for negative indices
+# remove and return the last item
+print('When index is not passed')
+print('return value:-',given_list.pop())
+print('Updated list',given_list)
+
+print('return value :-',given_list.pop(-3)) # it will pop that particular value
+print('upddated list:-',given_list) # it will return the updated list after pop out

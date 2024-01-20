@@ -1,0 +1,358 @@
+Learn Python by solving problems
+
+Introduction
+Exercise 1 – Hello.py
+# Write a program to enter your name (first name, surname), the program should repond hello to you.
+
+Exercise 2 – Area of a surface.py
+#   Enter the width and length of a surface. The program should compute the area. Enter the values as floating point numbers and print the units of mesurement used.
+
+Exercise 3 – Age in five years.py
+#   Create a program that will tell your age in 5 years.
+
+Exercise 4 – Converter Calculator.py
+#   Write a program that converts days in seconds, Celsius in Fahrenheit, miles in centimeters.
+
+Exercise 5 – How many can you fit.py
+#   A shelf has x > 100 cm. Determine how many y < 15 cm products can you fit on it.
+
+Exercise 6 – Savings account.py
+#   You just open a savings account that earns 2.1 interest per year. Display the amount you will have in your account over 1, 2, 3 years. Initial deposit is 45.
+#   Use only 2 decimal places for each amount.
+
+Exercise 7 – Grand total.py
+#   Enter the price of a meal at the restaurant. Determine the tax paid for that meal at a tax rate of your choice and tip at the rate of 10% of meal amount without the tax. 
+#   Display meal price, tax, tip and grand total on different lines in a user friendly format.
+
+Exercise 8 – Sum of digits.py
+# Determine the sum of digits for a 3 digits number. The program should display the following format for exemple 254: 2+5+4=11
+
+Exercise 9 – Self checkout.py
+#   Determine how much change you need to provide if a shopper pays with cash at a checkout machine. Input the total to pay and the amount paid by the shopper.
+#   The machine should return as few coins as possible. Consider it is loaded with 1¢, 5¢, 10¢, 25¢, 50¢, $1. 
+#   ex: for a total of $17.12 shopper paid $20 and received back 2 x $1 , 1 x 50c , 1 x 25c , 1 x 10c , 0 x 5c , 3 x 1c
+
+Exercise 10 – Where is it from.py
+# Enter a piece of text. Ask for a start and end number and then display just that section between.
+
+Exercise 11 – How many letters.py
+#   Take 2 inputs, first and last name. Merge them with a space between and calculate the number of letters in your full name.
+
+Exercise 12 – Distance on Earth.py
+#   Create a program where you enter the latitude and longitude of 2 points on Earth in degrees. The result should be the distance between them in kilometers.
+#   For lat1,long1 and lat2,long2 distance is: distance= 6371.01(average radius of Earth in km)*arccos(sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(long1-long2))
+#   You need to convert input from degrees in radians as Python`s trigonometric functions operate in radians.
+	
+Decision making
+Exercise 13 – Biggest number.py
+#   Determine the biggest number between 2 numbers and dispaly it an appropiate message.
+
+Exercise 14 – Odd or even.py
+#   Decide if a number is odd or even.
+
+Exercise 15 – Is it between.py
+#   Enter a number. If the number is between -10 and 10 then tell if it is positive, negative or 0. If number is outside range show an error message.
+
+Exercise 16 – Leap Year.py
+#   Determine if a year is a leap year.
+
+Exercise 17 – Make your choice.py
+#   Display square and triangle on screen. Ask user to chose a shape, if square is chosen, ask for length of 1 side and print the area. 
+#   If triangle is chosen ask for height and base and display area. Your program should work regardless of user using or not uppercase letters for answer.
+#   Display an error message if no shape is selected.
+
+Exercise 18 – Triangles.py
+#   Write a program that reads the lengths of a triangle sides and determine if it is equilateral (all sides the same), isoscele (2 sides same length) or scalene (all sides different).
+
+Exercise 19 – Is it a hoiday.py
+#   Write a program that reads a day and a month. If the date matches : Christmas, New Year or Halloween, print the holiday.
+
+Exercise 20 – Astrological sign.py
+#   Read a birthday and determine the astrological sign.
+
+Exercise 21- Will you get a raise.py
+#   At a company employees get a raise every year based on performance. The values used for performance are only: 0 for Bad performance, 0.25 for Good performance
+#   and 0.50 for Exceptional Performance. Raise is equal to £2000 multiplied by performance. Write a program that can calculate this.
+
+Exercise 22 – Overcharged.py
+#   A phone plan includes 100 minutes and messages and 6 GB of data for £10 a month. Every minute over limit is charged at 0.20p, every text at 0.08p and every 1 GB or less at £5. 
+#   There is also a charge of 0.36p per month to support emergency call centers. The entire bill is subject to 6 percent tax.
+#   Take input number of minutes, texts and GB used and calculate the total of the bill with each charge printed on it`s own line.
+
+Exercise 23 – Next day.py
+#   Take as input a day, month, year and display the date in the next format DD:MM:YYYY. Create a program that displays the next day in the same format. 
+#   Make sure it works correct for leap years. Assume the user will always enter a valid date.
+
+
+Exercise 24 – Black or white.py
+#	Letters on a chess board represent columns and numbers represent rows. Create a program that reads a position and prints if it is black or white.
+
+Loops
+              Exercise 25 – Name name name.py
+              #   Enter your name and display it 5 times. Upgrade the program to display it for a number of times chosen by you.
+
+	      Exercise 26 – Na m e n a m e n a m e.py
+		#   Enter your name and a number. Display your name one letter at the time on same line for that number of times.
+
+Exercise 27 – Total.py
+#   Create a program where you add 5 numbers to the total. After each number print the total.
+#   Extend the program by asking if the numbers should be added.
+
+Exercise 28 – Conversion table.py
+#   Convert from Celsius to Fahrenheit 0 to 100 degrees, only multiples of 5.
+
+Exercise 29 – One million chronometer.py
+#   How long it takes to display all numbers from 0 to 1 million in steps of 10?
+
+Exercise 30 – Binary to decimal.py
+#   Read a binary number as a string and convert it to a decimal number.
+
+Exercise 31 – Palindrome.py
+# A palindrom is a word that reads the same backwards as forwards. ex: eye, madam, level, radar. Check if a string is a palindrom.
+
+Exercise 32 – Random number.py
+#   Print a random number under 100.
+
+Exercise 33 – What to eat.py
+#   Chose a random meal from a menu of 5.
+
+Exercise 34 – Coin flip 1.0.py
+#   Flip a coin and try to guess the result.
+
+Exercise 35 – Test.py
+#   Create a small test using 2 different random numbers every question. Use only addition. 10 questions with one point for each, print score at the end.
+
+Exercise 36 – Find that number.py
+#   Generate a number under 100 and keep adding numbers under 10 until you reach it or pass it.
+#   If you pass it you lose and game resets, reach it to win. Display total after each number.
+
+Exercise 37 – Game developer.py
+# Generate a number from 1 to 1000. Try to guess it in 10 attemps. Print too low or too high depending on your guess.
+
+Exercise 38 – Polygon perimeter.py
+#   On a x,y axis compute the perimeter of a polygon. Enter the coordonates for each corner until x is skipped.
+
+Exercise 39 – 10 elephants.py
+#   Using the song :
+#   1 elephant swings happily
+#   On a spider web this morning
+#   The web is strong, it doesn't break
+#   So he calls another elephant
+#   Write a program that will ask you for the number of elephants. If number is right, print next lyrics up to 5. 
+#   If number is wrong print a error and ask user to try again.
+
+Exercise 40 – Coin flip 2.0.py
+#   Spin a coin. How many times you have to spin it to get the same outcome four consecutive times.
+#   Run the simulation 5 times, print the result on each row in the follwing format: H T H T T T T (7 flips)
+
+Functions
+
+Exercises 41-61 – Revision.py
+#   Revise previous exercises, try to create functions for as many as you can.
+
+Exercise 62 – Is it prime.py
+#   Create a function that can determine if number is prime.
+
+Exercise 63 – Next prime.py
+#   Take a number as input and create a function to determine the next prime number after it.
+
+Exercise 64 – 3 numbers.py
+#   Take 3 random numbers as parameters and determine the average value.
+
+
+Exercise 65 – Online shipping.py
+#   An online retailer offers shipping at the cost of 3.10 for the first item and 0.95 for each item after. 
+#   Create a function that takes as input the number of items ordered and prints the shipping cost.
+
+Exercise 66 – Days this month.py
+#   Create a function that will determine how many days are in a month. 
+#   It should have 2 parameters, month and year. Make sure it works for leap years.
+
+Exercise 67 – Counting letters.py
+#   Write a function that will calculate the number of uppercase and lowercase letters in a string.
+
+Exercise 68 – Perfect.py
+#   Create a function that will determine if a number is perfect.
+#   A perfect number is a positive integer that is equal to the sum of its positive divisors excluding the number itselt.
+#   Check how many perfect numbers are in 1 million.
+
+Exercise 69 – Password generator.py
+#   Create a function that will generate a password. Use ASCII table, in special items from 33 to 126 to create it.
+#   It should have between 8 and 15 characters. Create a main function that will display 5 passwords.
+
+
+
+Exercise 70 – Strong password.py
+#   Create a function that will check if you have a strong password, at least 10 characters, 1 uppercase letter,
+#   1 number and 1 symbol.
+#   Test this function on the password generated in the previous exercise and keep track how many attemps it takes to generate a strong password.
+
+Exercise 71 – Calculator.py
+#   Create a simple calculator function that will be able to calculate + and – operations. It should work like every calculator,
+# after first 2 numbers are calculated, you can keep making operations to the result.
+#   Break this problem in 3 separate functions:  addition, substraction, main.
+
+Exercise 72 – FizzBuzz.py
+#   Fizz buzz is a group word game for children to teach them about division.
+#   Players take turns to count, replacing any number divisible by three with the word "fizz",
+#   any number divisible by five with the word "buzz" and any number divisible by three and five with "fizzbuzz".
+#   Crate a program that will do this for numbers to 100.
+
+Exercise 73 – Multiplication Table.py
+#   Create the multiplication table like shown below(each element has 4 spaces allocated):
+
+#        1   2   3   4   5   6   7   8   9  10
+#    1   1   2   3   4   5   6   7   8   9  10
+#    2   2   4   6   8  10  12  14  16  18  20
+#    3   3   6   9  12  15  18  21  24  27  30
+#    4   4   8  12  16  20  24  28  32  36  40
+#    5   5  10  15  20  25  30  35  40  45  50
+#    6   6  12  18  24  30  36  42  48  54  60
+#    7   7  14  21  28  35  42  49  56  63  70
+#    8   8  16  24  32  40  48  56  64  72  80
+#    9   9  18  27  36  45  54  63  72  81  90
+#   10  10  20  30  40  50  60  70  80  90 100
+
+Exercise 74 – Pig latin.py
+#   Pig Latin is a language game in which English words are altered.
+#   For words that begin with consonant, first letter is placed at the end of the word sequence and 'ay' added at the end.
+#   ex: "pig" = "igpay", "latin" = "atinlay", "banana" = "ananabay"
+#   For words that begin with vowel, the vowel is left alone, and 'yay' is added to the end.
+#   ex: "omelet" = "omeletyay", "egg" = "eggyay", "explain" = "explainyay",
+
+Exercise 75 – Max.py
+#   Create 100 random numbers between 1,1000. Select the first number as the maximum and generate 
+#   the other 99. Update the maximum every time you find a larger number and keep track how of updates.
+
+Exercise 76 – Gregorian to Ordinal.py
+#   In a ordinal calendar you have only day and year. For exemple: 20/01/2020 is 20/2020, 14/03/2020 is 74/2020.
+#   Days in the ordinal calendar start at 1(1 January) and end at 365 or 366(31 December) depending if it is a leap year or not.
+#   Create a function that takes as parameter 3 numbers(day, month and year). It should return the day within the year and the year as result.
+#   Make sure it works for leap years.
+
+Exercise 77 – Cipher.py
+#   The Caesar Cipher was one of the earliest ciphers ever invented.
+#   In this cipher, you encrypt a message by taking each letter in the message 
+#   and replacing it with a “shifted” letter. 
+#   If you shift the letter A by one space, you get the letter B.
+#   If you shift the letter A by two spaces, you get the letter C and so on.
+#   Create a program that will allow you to encrypt or decrypt a string.
+#   You will give it a key(shift amont) and a string(message). Make sure it works for uppercase letters,
+#   keys over 26, and also you are able to decrypt previous messages.
+
+Exercise 78 – Vending machine.py
+#   Create a program for a vending machine. It should have 3 products.
+#   Assign different prices to the products. Keep count how much money you have in the machine.
+#   Menu should look like this: 1)Product 1 - price, 2)Product 2 - price, 3)Product 3 - price, 4)Exit.
+
+Exercise 79 – Return policy.py
+#   Using the code from previous exercise Gregorian to Ordinal.py improve the program.
+#   You should be able to add a number of days to your date and then convert it back to
+#   the gregorian calendar. For example you can use this program to determine the last 
+#   day a product can be returned. You put in the inial date, number of days you want to add,
+#   and final result should be the new date.
+#   Make sure the program works for leap years or dates that will be in the next year.
+
+Exercise 80 – Base conversion.py
+#   Create a program that will convert any number from one base to another. It should work from bases 2 to 16.
+#   You will input the number you want to convert and the new base. Break the problem in 3 steps:
+#   1) Convert a number from decimal to binary(revise exercise 30).
+#   2) Convert a number from decimal to hexadecimal.
+#   3) Examine the previous 2 steps and find a way to convert a number to any other base between.
+
+Lists
+
+Exercise 81 – First list.py
+#   Create a list with first 100 numbers.
+
+Exercise 82 – Sorting.py
+#   Create a list with 10 random numbers under 100. Sort them in order and reverse order.
+
+Exercise 83 – No duplicates.py
+#   Remove duplicates from the list = ['apple', 'banana', 'apple', 'orange', 'plum', 'plum']
+
+Exercise 84 – Alphabet.py
+#   Create 2 lists: lowercase and uppercase alphabet. Use the ASCII table to create them.
+
+Exercise 85 – Lottery.py
+#   Create a list with 6 numbers chosen by you.
+#   Simulate a lottery draw, from 1 to 49 draw 6 numbers(no duplicates).
+#   Print both lists and compare them. Print how much you won.
+#   0,1 numbers - Nothing
+#   2 numbers - 10
+#   3 numbers - 30
+#   4 numbers - 4500
+#   5 numbers - 100000
+#   6 numbers – 1000000
+
+Exercise 86 – How many attempts.py
+#   How many attempts it takes to win 3, 4, 5 or 6 numbers?
+
+Exercise 87 – Remove extremes.py
+#   Generate a list with 20 random elements(1-100), no duplicates. 
+#   Create a function that will take the list and a given number.
+#   If that number is 3 you should remove the 3 lowest and highest numbers.
+
+Exercise 88 – Just the words.py
+#   Create a function that will take a sentence as a string. Return a list containing just the words, 
+#   without spaces and punctuation marks. Do not remove punctuation marks in the words such as : isn't, don't
+#   Don't eat the following: watermelons, bananas and apples. ---> ['Don`t', 'eat', 'the', 'following', 'watermelons', 'bananas', 'and', 'apples']
+
+Exercise 89 – Palindromes, again.py
+#   Check if a sentence is palindrom by words. You need to ignore punctuation and spacing when
+#   checking. For exemple the sentence: Fall leaves as soon as leaves fall. is a palindrom 
+#   as it is the same when you read it backwards word by word.
+#   Other exemples: King, are you glad you are king?
+#   Sorry, I am very awkward. Very am I sorry.
+
+Exercise 90 – Manipulation.py
+#   Create a list with 20 random elements from -10 to 10.
+#   Break it into 3 lists, negatives, positives and zeros.
+#   For the negative and positive numbers list ask for 1 number in each and completly remove it.
+
+Exercise 91 – All sublists.py
+#   Create a program that will generate all the sublists of a list.
+#   All sublists of [1, 2, 3] are: [], [1], [2], [3], [1, 2], [2, 3] and [1, 2, 3]
+
+Exercise 92 – Let s play a game.py
+#   There are many games that can be played with a deck of cards.
+#   Create a list containing all 52 cards in a deck. Each card has one of 
+#   the 4 suits: spades, hearts, dimonds and clubs and a value: from 2 to 10, 
+#   ace, jack, queen, king.
+#   Four of hearts will be 4h, Ace of clubs will be Ac, Ten of spades will be Ts and so on.
+suits = ['s', 'h', 'd', 'c']
+values = [2, 3, 4, 5, 6, 7, 8, 9, 'T', 'A', 'J', 'Q', 'K']
+
+Dictionaries
+
+Exercise 93 – Name and age.py
+#   Asign to each name in the list a random age in a new dictionary.
+people = ['Tom', 'Jerry', 'Rex']
+
+Exercise 94 – Power.py
+ #  Create a dictinary with the numbers from 1-20 as keys and number to power 2 as value.
+
+Exercise 95 – Manipulation.py
+#   Create a dictionary with 10 random numbers between 1-1000.
+#   Calculate the average of values, if a value is under the average add it to a sum.
+
+Exercise 96 – Character count.py
+#   Create a program that counts how many times each character is in a string. ex: Hello : H:1, e:1, l:2, o:1
+
+Exercise 97 – Old phones.py
+#   On old phones each numeric key has multiple letters or symbols associated with it. Create a program that takes a 
+#   string and determines how many times you need to press each key.
+#   Ex: Hello  -  4433555555666
+
+Exercise 98 – Discounts.py
+#   A shop is running a discount for some products. Determine how much the product is discounted in %.
+#   Ex: Bread: curent price: 0.5, normal price: 1 -- > Discount amount is 50%
+
+Exercise 99 – Anagrams.py
+#   Create a program that will take two strings as input and determine if they are anagrams.
+#   An anagram is a word or phrase formed by rearranging the letters of a different word or phrase.
+#   Ex: "evil" = "vile", "eleven plus two" = "twelve plus one"
+
+Exercise 100 – Grades.py
+#   Determine the average grades of a student.
+grades = {'Math': 8, 'English': 6, 'Biology': 8.5, 'Chemistry': 6}

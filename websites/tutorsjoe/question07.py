@@ -12,6 +12,7 @@ item = [34, 45, 6, 5, 4, 56, 7]
 
 i = []
 
+
 if i == item:
     print(list is empty)
 
